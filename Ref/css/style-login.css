@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#zero{
+    width: 5%;
+
+}
+nav >ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #1C213F;
+    font-size: 1.3em;
+    height: 5.5em;
+    align-items: center;
+}
+nav a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0.4em 2em;
+}
+
+a.active {
+    color: #F3B900;
+}
+nav a:hover {
+    background-color: #F3B900;
+    color: #fff;
+}
+form input, form select {
+    width: 60%;
+    height: 30px;
+    border: none;
+    text-align: center;
+    padding: 0 2px;
+    background-color: #ffffff;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+}  
+
+form label {
+    color: #1C213F;
+ 
+}
+
+form input[type="submit"] {
+    background-color: #1C213F;
+    border: 1px solid #1C213F;
+    color: #ffffff;
+    margin: 10px 0;
+    height: 2em;
+    border-radius: 3px;
+    font-weight: bold;
+    text-align: center;
+}
+
+form input[type="submit"]:hover {
+    background-color: #313A87;
+    color: #F3B900;
+    border: 1px solid #F8E9E9;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    font-weight: bolder;
+}
+.pessoa {
+    background-color: #F8E9E9;
+    text-align: center;
+}
+.cadastrando {
+    background-color: #F3B900;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.icone {
+    width: 5%;
+    height: 5%;
+    text-align: center;
+    
+}
+.footer{
+    background-color: #1C213F;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+}
+.baixo {
+    background-color:#ffffff;
+    align-items: inherit;
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    height: 15%;
+ 
+}
+.login {
+    background-color: #F8E9E9;
+}

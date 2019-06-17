@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#zero{
+    width: 5%;
+
+}
+nav >ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #1C213F;
+    font-size: 1.3em;
+    height: 5.5em;
+    align-items: center;
+}
+#tipo {
+    background-image: url(.../imagens/o-que-fazer-para-a-bateria-do-tablet-android-durar-mais--photo74744011-44-12-37.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 0,8em;
+}
+#tipo {
+    background-color: #F8E9E9;
+}
+h1 {
+    text-align: center;
+    color: #1C213F;
+}
+.digital{
+    background-color:#F3B900;
+    text-align: center;
+    
+}
+.digital{
+    width: 100%;
+}
+.link {
+    text-align: unset;
+}
+
+h3 {
+    text-align: center;
+    color: #ffffff;
+}
+.todas {
+    background-color: #313A87;
+}
+.boxa{
+    background-color: #F8E9E9;
+    width: 30%;
+    margin-left: 37%;
+    text-align: center;
+}
+
+.boxb{
+    background-color: #F8E9E9;
+    width: 30%;
+    margin-left: 37%;
+    text-align: center;
+}
+.boxc{
+    background-color: #F8E9E9;
+    width: 30%;
+    margin-left: 37%;
+    text-align: center;
+}
+.boxd{
+    background-color: #F8E9E9;
+    width: 30%;
+    margin-left: 37%;
+    text-align: center;
+}
+nav a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0.4em 2em;
+}
+
+a.active {
+    color: #F3B900;
+}
+nav a:hover {
+    background-color: #F3B900;
+    color: #fff;
+}
+.icone {
+    width: 5%;
+    height: 5%;
+    text-align: center;
+    
+}
+.footer{
+    background-color: #1C213F;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+}
+.baixo {
+    background-color:#ffffff;
+    align-items: inherit;
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    height: 15%;
+ 
+}
+h4 {
+    text-align: center;
+}
+.login {
+    background-color: #F8E9E9;
+    text-align: center;
+}
+form input, form select {
+    width: 60%;
+    height: 30px;
+    border: none;
+    text-align: center;
+    padding: 0 2px;
+    background-color: #ffffff;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+}  
+
+form label {
+    color: #1C213F;
+    text-align: center
+ 
+}
+
+form input[type="submit"] {
+    background-color: #1C213F;
+    border: 1px solid #1C213F;
+    color: #ffffff;
+    margin: 20px 0;
+    height: 2em;
+    border-radius: 3px;
+    font-weight: bold;
+    text-align: center;
+}
+
+form input[type="submit"]:hover {
+    background-color: #F3B900;
+    color: #1C213F;
+    border: 1px solid #313A87;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    font-weight: bolder;
+}

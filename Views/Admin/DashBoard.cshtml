@@ -1,0 +1,49 @@
+@using PontoDigitalWeb.Models;
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devide-width, inicial-scale=1.0">
+    <link rel="stylesheet" href="/css/style-admin.css">
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><a href='@Url.Action("Index","Home")#Home'>Home</a></li>
+                <li><a href='@Url.Action("Listar","Admin")#Listar'>Listar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="fundo">
+        <h2>Tela de Administrador</h2>
+        </br>
+        </br>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+
+                    <th>COMENTÁRIO</th>
+                    <th>DATA DO COMENTÁRIO</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.ListaDeComentarios)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.Comentario</td>
+                        <td>@item.DataComentario</td>
+                        <td>
+                            <td><button><a href="/Admin/AprovarComentario?id=@item.Id">Aprovar</a></button></td>
+                            <td><button><a href="/Admin/RejeitarComentario?id=@item.Id">Reprovar</a></button></td>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        </div>
+    </main>
+</body>

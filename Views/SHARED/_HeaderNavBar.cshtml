@@ -1,0 +1,11 @@
+ <nav class="menu">
+                <ul>
+                    <li><a asp-controller="Home" asp-action="Index" class="active"></a></li>
+                    <img id="zero" src="img/logo.png">
+                    <li><a href='@Url.Action("Index","Home")#Home'>Home</a></li>
+                    <li><a href='@Url.Action("Index","Sobre")#Sobre'>Sobre</a></li>
+                    <li><a href='@Url.Action("Index","Planos")#Planos'>Planos</a></li>
+                    <li><a href='@Url.Action("Index","Cadastro")#Login'>Login</a></li>
+                    <li><a href='@Url.Action("Index","Contato")#Contato'>Contato</a></li>
+                </ul>
+    </nav>

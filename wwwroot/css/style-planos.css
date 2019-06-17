@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#zero{
+    width: 5%;
+
+}
+nav >ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #1C213F;
+    font-size: 1.3em;
+    height: 5.5em;
+    align-items: center;
+}
+nav a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0.4em 2em;
+}
+
+a.active {
+    color: #F3B900;
+}
+nav a:hover {
+    background-color: #F3B900;
+    color: #fff;
+}
+form input, form select {
+    width: 100%;
+    height: 25px;
+    border: none;
+    padding: 0 2px;
+    background-color: #ffffff;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+}  
+
+form label {
+    color: #1C213F;
+    text-align: center
+ 
+}
+
+form input[type="submit"] {
+    background-color: #1C213F;
+    border: 1px solid #1C213F;
+    color: #ffffff;
+    margin: 20px 0;
+    height: 2em;
+    border-radius: 3px;
+    font-weight: bold;
+    text-align: center;
+}
+
+form input[type="submit"]:hover {
+    background-color: #F3B900;
+    color: #1C213F;
+    border: 1px solid #313A87;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    font-weight: bolder;
+}
+#tipo {
+    background-image: url(.../imagens/internauta.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 0,8em;
+}
+#tipo {
+    background-color: #F8E9E9;
+}
+.quadrados {
+    background-color:#F3B900;
+    text-align: center;
+    color: #1C213F;
+}
+.primeiro {
+    background-color: #F8E9E9;
+    width: 30%;
+    margin-left: 37%;
+    text-align: center;
+    font-size: 1em;
+}
+.segundo {
+    background-color: #F8E9E9;
+    width: 30%;
+    margin-left: 37%;
+    text-align: center;
+    font-size: 1em;
+}
+.terceiro {
+    background-color: #F8E9E9;
+    width: 30%;
+    margin-left: 37%;
+    text-align: center;
+    font-size: 1,9em;
+}
+
+.quarto {
+    background-color: #F8E9E9;
+    width: 30%;
+    margin-left: 37%;
+    text-align: center;
+    font-size: 2em;
+
+}
+.mento {
+    background-color:#313A87;
+    text-align: center;
+    color: #ffffff;
+
+}
+h3 {
+    color: #1C213F;
+}
+.icone {
+    width: 5%;
+    height: 5%;
+    text-align: center;
+    
+}
+.footer{
+    background-color: #1C213F;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+}
+.baixo {
+    background-color:#ffffff;
+    align-items: inherit;
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    height: 15%;
+ 
+}
+.login {
+    background-color: #F8E9E9;
+}
